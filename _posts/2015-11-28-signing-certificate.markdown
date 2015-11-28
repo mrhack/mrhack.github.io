@@ -2,7 +2,7 @@
 layout: post
 title:  "signing certificate"
 date:   2015-11-28 14:44:38
-categories: jekyll update
+categories: openssl certificate
 ---
 
 ```
