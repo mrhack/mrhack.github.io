@@ -2,7 +2,7 @@
 layout: post
 title:  "process big array with javascript"
 date:   2015-11-28 14:44:38
-categories: openssl certificate
+categories: javascript array
 ---
 
 
