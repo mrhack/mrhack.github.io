@@ -4,9 +4,8 @@
 
 * image
 
-    > [Pixel generator](http://px64.net/)
+    > [Pixel generator](http://px64.net/)  
     * Base64 Encode of 1x1px Transparent GIF
-    
     > data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
 
 
@@ -15,5 +14,5 @@
 
 * remote connent
 
-    > [TeamViewer](https://www.teamviewer.com/zhCN/download/mac.aspx)
+    > [TeamViewer](https://www.teamviewer.com/zhCN/download/mac.aspx)  
     > [Chrome 远程桌面](https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp)
