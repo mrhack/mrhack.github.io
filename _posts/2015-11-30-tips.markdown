@@ -5,8 +5,7 @@
 * image
 
     > [Pixel generator](http://px64.net/)  
-    * Base64 Encode of 1x1px Transparent GIF
-    > data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+    > [Base64 Encode of 1x1px Transparent GIF](https://css-tricks.com/snippets/html/base64-encode-of-1x1px-transparent-gif/) = data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
 
 
 * reading
