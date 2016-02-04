@@ -11,7 +11,17 @@
 * reading
 
 
-* remote connent
+* remote conect
 
     > [TeamViewer](https://www.teamviewer.com/zhCN/download/mac.aspx)  
     > [Chrome 远程桌面](https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp)
+
+
+* IOS develop
+
+    > [深入理解 CocoaPods](http://objccn.io/issue-6-4/)
+
+
+* Linux
+
+    > 查看一个Link文件支持的指令集：lipo -info xxxx.a

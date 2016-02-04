@@ -1,0 +1,45 @@
+
+1.  swift 默认数组里面的类型必须一致，如果不致，则会报如下错误：
+    var jobArray = [
+        ["Dog Walker", "Job Description", ["Monday", "Wednesday", "Friday"], "7"],
+        ["Babysitter", "Job Description", ["Tuesday", "Wednesday"], "15"],
+        ["Leaves Raker", "Job Description", ["Sunday", ""], "10"]
+    ]
+
+    type of expression is ambiguous without more context
+    解决方式：
+    1）可以引入importing Foundation // TODO 为什么引入了之后，数组类型就可以是任意的呢？？？？?
+    2）使用struct数据结构
+    I would strongly suggest, instead of defining this array like this, that you implement a simple 
+    struct Job {
+        let jobDescription: String
+        let days: [String]  // or even an enum for the days of the week
+        let hourlyPay: Double
+    }
+
+    var jobArray = [
+        Job(jobDescription: "Dog Walker", days:  ["Monday", "Wednesday", "Friday"], hourlyPay: 7),
+        Job(jobDescription: "Babysitter", days:  ["Tuesday", "Wednesday"], hourlyPay: 15),
+        // etc
+    ]
+
+    [Nested array - ambiguous](http://stackoverflow.com/questions/30406668/nested-array-ambiguous)
+
+2. Foundation 似乎可以简略一些变量定义时候的默认类型
+
+3. 通过使用 ?? 操作符来提供一个默认值。如果可选值缺失的话，可以使用默认值来代替
+    let nickName: String? = nil
+    let fullName: String = "John Appleseed"
+    let informalGreeting = "Hi \(nickName ?? fullName)"
+4. switch 必须要有default语句
+   case 可以是表达式
+   不需要break
+
+
+5. 匿名函数有点奇怪， 使用{}来创建匿名闭包
+ 使用in把函数参数与返回值和函数体进行分离
+{
+    (number: Int) -> Int in
+    let result = 3 * number
+    return result
+}
